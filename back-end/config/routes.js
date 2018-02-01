@@ -4,6 +4,9 @@ var textPostsController = require('../controllers/textPosts');
 var commentsController = require('../controllers/comments');
 
 //TextPost Routes
+router.get('/' function (req,res {
+  <h1>hello world</h1>
+})); 
 router.get('/api/posts', textPostsController.index);
 router.post('/api/posts', textPostsController.create);
 router.get('api/posts/:post_id', textPostsController.show);
